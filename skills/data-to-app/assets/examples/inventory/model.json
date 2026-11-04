@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "title": "Northstar Inventory",
+  "tables": [
+    {
+      "id": "products",
+      "label": "Products",
+      "source": "products.csv",
+      "key": ["sku"],
+      "columns": ["sku", "name", "category", "stock", "reorder_level", "notes"],
+      "editable": ["reorder_level", "notes"],
+      "views": [{"id": "low-stock", "label": "Low stock", "rule": {"left": "stock", "op": "lt", "right_field": "reorder_level", "type": "decimal"}}]
+    },
+    {
+      "id": "orders",
+      "label": "Order lines",
+      "source": "orders.csv",
+      "key": ["line_id"],
+      "columns": ["line_id", "order_id", "sku", "quantity", "status"],
+      "editable": ["status"],
+      "views": [{"id": "pending", "label": "Pending orders", "rule": {"left": "status", "op": "eq", "value": "pending", "type": "text"}}]
+    }
+  ]
+}
