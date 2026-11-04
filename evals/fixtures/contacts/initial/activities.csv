@@ -1,0 +1,5 @@
+activity_id,contact_id,kind,date
+A01,0001,note,2026-11-01
+A02,0001,call,2026-11-02
+A03,0002,note,2026-11-02
+A04,0004,call,2026-11-03
