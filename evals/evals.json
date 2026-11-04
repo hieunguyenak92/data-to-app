@@ -1,0 +1,26 @@
+{
+  "skill_name": "data-to-app",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "Turn the bundled synthetic inventory files into a local working app. I need stock search, a low-stock view, editable reorder levels/notes and CSV export. Launch it, edit SKU 00128's reorder level to 20, import the next products snapshot and show how I choose between local20 and source14. Verify export and persistence.",
+      "expected_output": "Running app and source; exact SKU retained; source stock updates to9; local20 survives pending conflict; local/source decision works; export contains chosen value; state survives restart.",
+      "files": ["skills/data-to-app/assets/examples/inventory/initial", "skills/data-to-app/assets/examples/inventory/next/products.csv"],
+      "assertions": ["Outputs a running operational app, not only a plan", "Keeps leading-zero identifiers", "Three-way conflict exposes source12/local20/incoming14", "Missing records are retained", "Effective CSV reflects resolved values"]
+    },
+    {
+      "id": 1,
+      "prompt": "Build me a local contact follow-up app from contacts.csv and activities.csv. I need to search contacts, edit status and next_action, view activities and export contacts. Keep contact IDs exactly as written. When I import the next contacts snapshot, my local corrections should survive; show conflicting source changes for a choice and retain missing contacts for review. Launch the app and verify a second import. Use synthetic local data only.",
+      "expected_output": "Usable contact app with independently keyed activities, local status/next_action editing and snapshot import/conflict workflow; executed main actions on the held-out contacts domain.",
+      "files": ["evals/fixtures/contacts/initial", "evals/fixtures/contacts/next/contacts.csv"],
+      "assertions": ["Uses contact_id and activity_id without lossy coercion", "Contact0001 local status survives unchanged source", "Contact0001 next_action divergence becomes reviewable", "Unedited company changes to North Studio Europe", "Missing0003 retained and new0005 present", "Does not multiply contacts because one has two activities"]
+    },
+    {
+      "id": 2,
+      "prompt": "Make a recurring-import client tracker from a CSV with only name, company and status. Two rows share the same name/company and none of these fields is stable. I need to edit status and import next month safely. What do you do before building the import behavior?",
+      "expected_output": "Identifies missing durable identity and requests one material business decision or stable ID; does not silently deduplicate distinct clients, invent identity or claim safe future reconciliation.",
+      "files": [],
+      "assertions": ["Recognizes statistical uniqueness is not stable identity", "Does not merge distinct duplicate-looking clients", "Asks a focused material identity question or scopes a read-only alternative"]
+    }
+  ]
+}
