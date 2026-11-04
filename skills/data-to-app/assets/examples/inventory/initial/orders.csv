@@ -1,0 +1,9 @@
+line_id,order_id,sku,quantity,status
+L-1001,ORD-201,00127,2,fulfilled
+L-1002,ORD-201,00128,1,pending
+L-1003,ORD-202,00130,3,pending
+L-1004,ORD-203,00133,2,pending
+L-1005,ORD-204,00135,5,fulfilled
+L-1006,ORD-204,00128,2,pending
+L-1007,ORD-205,00137,1,fulfilled
+L-1008,ORD-206,00131,4,pending
