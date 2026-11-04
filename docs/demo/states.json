@@ -1,0 +1,1187 @@
+{
+  "version": "0.1.0",
+  "kind": "guided-synthetic-preview",
+  "title": "Northstar Inventory",
+  "columns": [
+    "sku",
+    "name",
+    "category",
+    "stock",
+    "reorder_level",
+    "notes"
+  ],
+  "steps": [
+    {
+      "id": "initial",
+      "title": "Start with your files",
+      "description": "Twelve products and eight order lines become a persistent local workspace. An identical duplicate is collapsed and leading-zero identifiers stay intact.",
+      "summary": {
+        "revision": 1,
+        "active_rows": 20,
+        "missing_rows": 0,
+        "local_edits": 0,
+        "edited_rows": 0,
+        "conflicts": 0,
+        "imports": 2
+      },
+      "rows": [
+        {
+          "id": "274dc2e2d7711aed5404877afe7c224e9e3af7d7d9dadb4282c11b2a97839dd1",
+          "values": {
+            "category": "Carry",
+            "name": "Canvas Field Bag",
+            "notes": "Core collection",
+            "reorder_level": "8",
+            "sku": "00127",
+            "stock": "18"
+          },
+          "source": {
+            "category": "Carry",
+            "name": "Canvas Field Bag",
+            "notes": "Core collection",
+            "reorder_level": "8",
+            "sku": "00127",
+            "stock": "18"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "b8b4de244a94f2a90394dd8c6dd1fbd922dcfff63dccd59c0c0aa55dbff0f384",
+          "values": {
+            "category": "Stationery",
+            "name": "Studio Notebook",
+            "notes": "Check paper supplier",
+            "reorder_level": "12",
+            "sku": "00128",
+            "stock": "6"
+          },
+          "source": {
+            "category": "Stationery",
+            "name": "Studio Notebook",
+            "notes": "Check paper supplier",
+            "reorder_level": "12",
+            "sku": "00128",
+            "stock": "6"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "22e313f797702d83851f4e6cf31300512439c37349145338a9b46a881bb730b3",
+          "values": {
+            "category": "Workspace",
+            "name": "Brass Desk Tray",
+            "notes": "Spring release",
+            "reorder_level": "6",
+            "sku": "00129",
+            "stock": "24"
+          },
+          "source": {
+            "category": "Workspace",
+            "name": "Brass Desk Tray",
+            "notes": "Spring release",
+            "reorder_level": "6",
+            "sku": "00129",
+            "stock": "24"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "3f347c72234ee323c63ca4a20a02e0dc7df8ba59652377084866267b06bc0689",
+          "values": {
+            "category": "Travel",
+            "name": "Everyday Bottle",
+            "notes": "Restock before Friday",
+            "reorder_level": "10",
+            "sku": "00130",
+            "stock": "4"
+          },
+          "source": {
+            "category": "Travel",
+            "name": "Everyday Bottle",
+            "notes": "Restock before Friday",
+            "reorder_level": "10",
+            "sku": "00130",
+            "stock": "4"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "30b67eb9822f12efea9703cdd6305f83661f02c5acd70133de2d1cf251aa5c22",
+          "values": {
+            "category": "Carry",
+            "name": "Linen Cable Pouch",
+            "notes": "",
+            "reorder_level": "10",
+            "sku": "00131",
+            "stock": "31"
+          },
+          "source": {
+            "category": "Carry",
+            "name": "Linen Cable Pouch",
+            "notes": "",
+            "reorder_level": "10",
+            "sku": "00131",
+            "stock": "31"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "12a32f33d4dfcaf1ec0112d92d7adb24ed5811da7eb1f35d967de343c3140dc0",
+          "values": {
+            "category": "Workspace",
+            "name": "Oak Laptop Stand",
+            "notes": "Finish inspected",
+            "reorder_level": "5",
+            "sku": "00132",
+            "stock": "9"
+          },
+          "source": {
+            "category": "Workspace",
+            "name": "Oak Laptop Stand",
+            "notes": "Finish inspected",
+            "reorder_level": "5",
+            "sku": "00132",
+            "stock": "9"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "0da60269f7c4393652f9f70ed06769d538aa126a0d637e3818c10c143c935960",
+          "values": {
+            "category": "Stationery",
+            "name": "Soft Grid Planner",
+            "notes": "Seasonal batch",
+            "reorder_level": "8",
+            "sku": "00133",
+            "stock": "3"
+          },
+          "source": {
+            "category": "Stationery",
+            "name": "Soft Grid Planner",
+            "notes": "Seasonal batch",
+            "reorder_level": "8",
+            "sku": "00133",
+            "stock": "3"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "6d7a3f9df2e357252667ebb2978a2d9fe3181d9c6c0f7815ffa0eed868f2ed3b",
+          "values": {
+            "category": "Travel",
+            "name": "Travel Tech Kit",
+            "notes": "",
+            "reorder_level": "6",
+            "sku": "00134",
+            "stock": "16"
+          },
+          "source": {
+            "category": "Travel",
+            "name": "Travel Tech Kit",
+            "notes": "",
+            "reorder_level": "6",
+            "sku": "00134",
+            "stock": "16"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "97de94ffa4bf174fa6def54f398673c123bbcfd08cf5494187799e04d111f5f0",
+          "values": {
+            "category": "Stationery",
+            "name": "Minimal Pen Set",
+            "notes": "Bundle eligible",
+            "reorder_level": "12",
+            "sku": "00135",
+            "stock": "42"
+          },
+          "source": {
+            "category": "Stationery",
+            "name": "Minimal Pen Set",
+            "notes": "Bundle eligible",
+            "reorder_level": "12",
+            "sku": "00135",
+            "stock": "42"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "5b9903e3079563ee815c7af4f2f12bcb9c3d06248ecff9594cc7bf52594856f5",
+          "values": {
+            "category": "Workspace",
+            "name": "Merino Desk Mat",
+            "notes": "",
+            "reorder_level": "4",
+            "sku": "00136",
+            "stock": "11"
+          },
+          "source": {
+            "category": "Workspace",
+            "name": "Merino Desk Mat",
+            "notes": "",
+            "reorder_level": "4",
+            "sku": "00136",
+            "stock": "11"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "ace96d3131f766611700559535f7adffc307d351b74dae72e8b33ed018e55661",
+          "values": {
+            "category": "Carry",
+            "name": "Utility Tote",
+            "notes": "Awaiting color sample",
+            "reorder_level": "9",
+            "sku": "00137",
+            "stock": "7"
+          },
+          "source": {
+            "category": "Carry",
+            "name": "Utility Tote",
+            "notes": "Awaiting color sample",
+            "reorder_level": "9",
+            "sku": "00137",
+            "stock": "7"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "8a1bc32fe2659986461b497f51b4d3d25e3e9a54a191a16c7d75425d330d3460",
+          "values": {
+            "category": "Travel",
+            "name": "Transit Organizer",
+            "notes": "New edition",
+            "reorder_level": "7",
+            "sku": "00138",
+            "stock": "20"
+          },
+          "source": {
+            "category": "Travel",
+            "name": "Transit Organizer",
+            "notes": "New edition",
+            "reorder_level": "7",
+            "sku": "00138",
+            "stock": "20"
+          },
+          "overrides": [],
+          "missing": false
+        }
+      ],
+      "conflicts": [],
+      "csv": "sku,name,category,stock,reorder_level,notes\r\n00127,Canvas Field Bag,Carry,18,8,Core collection\r\n00128,Studio Notebook,Stationery,6,12,Check paper supplier\r\n00129,Brass Desk Tray,Workspace,24,6,Spring release\r\n00130,Everyday Bottle,Travel,4,10,Restock before Friday\r\n00131,Linen Cable Pouch,Carry,31,10,\r\n00132,Oak Laptop Stand,Workspace,9,5,Finish inspected\r\n00133,Soft Grid Planner,Stationery,3,8,Seasonal batch\r\n00134,Travel Tech Kit,Travel,16,6,\r\n00135,Minimal Pen Set,Stationery,42,12,Bundle eligible\r\n00136,Merino Desk Mat,Workspace,11,4,\r\n00137,Utility Tote,Carry,7,9,Awaiting color sample\r\n00138,Transit Organizer,Travel,20,7,New edition\r\n"
+    },
+    {
+      "id": "local",
+      "title": "Make a local decision",
+      "description": "Change Studio Notebook's reorder level from 12 to 20. The source value and your decision are stored separately.",
+      "summary": {
+        "revision": 2,
+        "active_rows": 20,
+        "missing_rows": 0,
+        "local_edits": 1,
+        "edited_rows": 1,
+        "conflicts": 0,
+        "imports": 2
+      },
+      "rows": [
+        {
+          "id": "274dc2e2d7711aed5404877afe7c224e9e3af7d7d9dadb4282c11b2a97839dd1",
+          "values": {
+            "category": "Carry",
+            "name": "Canvas Field Bag",
+            "notes": "Core collection",
+            "reorder_level": "8",
+            "sku": "00127",
+            "stock": "18"
+          },
+          "source": {
+            "category": "Carry",
+            "name": "Canvas Field Bag",
+            "notes": "Core collection",
+            "reorder_level": "8",
+            "sku": "00127",
+            "stock": "18"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "b8b4de244a94f2a90394dd8c6dd1fbd922dcfff63dccd59c0c0aa55dbff0f384",
+          "values": {
+            "category": "Stationery",
+            "name": "Studio Notebook",
+            "notes": "Check paper supplier",
+            "reorder_level": "20",
+            "sku": "00128",
+            "stock": "6"
+          },
+          "source": {
+            "category": "Stationery",
+            "name": "Studio Notebook",
+            "notes": "Check paper supplier",
+            "reorder_level": "12",
+            "sku": "00128",
+            "stock": "6"
+          },
+          "overrides": [
+            "reorder_level"
+          ],
+          "missing": false
+        },
+        {
+          "id": "22e313f797702d83851f4e6cf31300512439c37349145338a9b46a881bb730b3",
+          "values": {
+            "category": "Workspace",
+            "name": "Brass Desk Tray",
+            "notes": "Spring release",
+            "reorder_level": "6",
+            "sku": "00129",
+            "stock": "24"
+          },
+          "source": {
+            "category": "Workspace",
+            "name": "Brass Desk Tray",
+            "notes": "Spring release",
+            "reorder_level": "6",
+            "sku": "00129",
+            "stock": "24"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "3f347c72234ee323c63ca4a20a02e0dc7df8ba59652377084866267b06bc0689",
+          "values": {
+            "category": "Travel",
+            "name": "Everyday Bottle",
+            "notes": "Restock before Friday",
+            "reorder_level": "10",
+            "sku": "00130",
+            "stock": "4"
+          },
+          "source": {
+            "category": "Travel",
+            "name": "Everyday Bottle",
+            "notes": "Restock before Friday",
+            "reorder_level": "10",
+            "sku": "00130",
+            "stock": "4"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "30b67eb9822f12efea9703cdd6305f83661f02c5acd70133de2d1cf251aa5c22",
+          "values": {
+            "category": "Carry",
+            "name": "Linen Cable Pouch",
+            "notes": "",
+            "reorder_level": "10",
+            "sku": "00131",
+            "stock": "31"
+          },
+          "source": {
+            "category": "Carry",
+            "name": "Linen Cable Pouch",
+            "notes": "",
+            "reorder_level": "10",
+            "sku": "00131",
+            "stock": "31"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "12a32f33d4dfcaf1ec0112d92d7adb24ed5811da7eb1f35d967de343c3140dc0",
+          "values": {
+            "category": "Workspace",
+            "name": "Oak Laptop Stand",
+            "notes": "Finish inspected",
+            "reorder_level": "5",
+            "sku": "00132",
+            "stock": "9"
+          },
+          "source": {
+            "category": "Workspace",
+            "name": "Oak Laptop Stand",
+            "notes": "Finish inspected",
+            "reorder_level": "5",
+            "sku": "00132",
+            "stock": "9"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "0da60269f7c4393652f9f70ed06769d538aa126a0d637e3818c10c143c935960",
+          "values": {
+            "category": "Stationery",
+            "name": "Soft Grid Planner",
+            "notes": "Seasonal batch",
+            "reorder_level": "8",
+            "sku": "00133",
+            "stock": "3"
+          },
+          "source": {
+            "category": "Stationery",
+            "name": "Soft Grid Planner",
+            "notes": "Seasonal batch",
+            "reorder_level": "8",
+            "sku": "00133",
+            "stock": "3"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "6d7a3f9df2e357252667ebb2978a2d9fe3181d9c6c0f7815ffa0eed868f2ed3b",
+          "values": {
+            "category": "Travel",
+            "name": "Travel Tech Kit",
+            "notes": "",
+            "reorder_level": "6",
+            "sku": "00134",
+            "stock": "16"
+          },
+          "source": {
+            "category": "Travel",
+            "name": "Travel Tech Kit",
+            "notes": "",
+            "reorder_level": "6",
+            "sku": "00134",
+            "stock": "16"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "97de94ffa4bf174fa6def54f398673c123bbcfd08cf5494187799e04d111f5f0",
+          "values": {
+            "category": "Stationery",
+            "name": "Minimal Pen Set",
+            "notes": "Bundle eligible",
+            "reorder_level": "12",
+            "sku": "00135",
+            "stock": "42"
+          },
+          "source": {
+            "category": "Stationery",
+            "name": "Minimal Pen Set",
+            "notes": "Bundle eligible",
+            "reorder_level": "12",
+            "sku": "00135",
+            "stock": "42"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "5b9903e3079563ee815c7af4f2f12bcb9c3d06248ecff9594cc7bf52594856f5",
+          "values": {
+            "category": "Workspace",
+            "name": "Merino Desk Mat",
+            "notes": "",
+            "reorder_level": "4",
+            "sku": "00136",
+            "stock": "11"
+          },
+          "source": {
+            "category": "Workspace",
+            "name": "Merino Desk Mat",
+            "notes": "",
+            "reorder_level": "4",
+            "sku": "00136",
+            "stock": "11"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "ace96d3131f766611700559535f7adffc307d351b74dae72e8b33ed018e55661",
+          "values": {
+            "category": "Carry",
+            "name": "Utility Tote",
+            "notes": "Awaiting color sample",
+            "reorder_level": "9",
+            "sku": "00137",
+            "stock": "7"
+          },
+          "source": {
+            "category": "Carry",
+            "name": "Utility Tote",
+            "notes": "Awaiting color sample",
+            "reorder_level": "9",
+            "sku": "00137",
+            "stock": "7"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "8a1bc32fe2659986461b497f51b4d3d25e3e9a54a191a16c7d75425d330d3460",
+          "values": {
+            "category": "Travel",
+            "name": "Transit Organizer",
+            "notes": "New edition",
+            "reorder_level": "7",
+            "sku": "00138",
+            "stock": "20"
+          },
+          "source": {
+            "category": "Travel",
+            "name": "Transit Organizer",
+            "notes": "New edition",
+            "reorder_level": "7",
+            "sku": "00138",
+            "stock": "20"
+          },
+          "overrides": [],
+          "missing": false
+        }
+      ],
+      "conflicts": [],
+      "csv": "sku,name,category,stock,reorder_level,notes\r\n00127,Canvas Field Bag,Carry,18,8,Core collection\r\n00128,Studio Notebook,Stationery,6,20,Check paper supplier\r\n00129,Brass Desk Tray,Workspace,24,6,Spring release\r\n00130,Everyday Bottle,Travel,4,10,Restock before Friday\r\n00131,Linen Cable Pouch,Carry,31,10,\r\n00132,Oak Laptop Stand,Workspace,9,5,Finish inspected\r\n00133,Soft Grid Planner,Stationery,3,8,Seasonal batch\r\n00134,Travel Tech Kit,Travel,16,6,\r\n00135,Minimal Pen Set,Stationery,42,12,Bundle eligible\r\n00136,Merino Desk Mat,Workspace,11,4,\r\n00137,Utility Tote,Carry,7,9,Awaiting color sample\r\n00138,Transit Organizer,Travel,20,7,New edition\r\n"
+    },
+    {
+      "id": "incoming",
+      "title": "Bring in the next snapshot",
+      "description": "The source now says 14. Your local 20 remains visible while the app shows the three-way conflict. Other source fields update; missing records remain available.",
+      "summary": {
+        "revision": 3,
+        "active_rows": 20,
+        "missing_rows": 1,
+        "local_edits": 1,
+        "edited_rows": 1,
+        "conflicts": 1,
+        "imports": 3
+      },
+      "rows": [
+        {
+          "id": "274dc2e2d7711aed5404877afe7c224e9e3af7d7d9dadb4282c11b2a97839dd1",
+          "values": {
+            "category": "Carry",
+            "name": "Canvas Field Bag",
+            "notes": "Core collection",
+            "reorder_level": "8",
+            "sku": "00127",
+            "stock": "16"
+          },
+          "source": {
+            "category": "Carry",
+            "name": "Canvas Field Bag",
+            "notes": "Core collection",
+            "reorder_level": "8",
+            "sku": "00127",
+            "stock": "16"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "b8b4de244a94f2a90394dd8c6dd1fbd922dcfff63dccd59c0c0aa55dbff0f384",
+          "values": {
+            "category": "Stationery",
+            "name": "Studio Notebook",
+            "notes": "Supplier changed to Atelier",
+            "reorder_level": "20",
+            "sku": "00128",
+            "stock": "9"
+          },
+          "source": {
+            "category": "Stationery",
+            "name": "Studio Notebook",
+            "notes": "Supplier changed to Atelier",
+            "reorder_level": "14",
+            "sku": "00128",
+            "stock": "9"
+          },
+          "overrides": [
+            "reorder_level"
+          ],
+          "missing": false
+        },
+        {
+          "id": "22e313f797702d83851f4e6cf31300512439c37349145338a9b46a881bb730b3",
+          "values": {
+            "category": "Workspace",
+            "name": "Brass Desk Tray",
+            "notes": "Spring release",
+            "reorder_level": "6",
+            "sku": "00129",
+            "stock": "22"
+          },
+          "source": {
+            "category": "Workspace",
+            "name": "Brass Desk Tray",
+            "notes": "Spring release",
+            "reorder_level": "6",
+            "sku": "00129",
+            "stock": "22"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "3f347c72234ee323c63ca4a20a02e0dc7df8ba59652377084866267b06bc0689",
+          "values": {
+            "category": "Travel",
+            "name": "Everyday Bottle",
+            "notes": "Restock before Friday",
+            "reorder_level": "10",
+            "sku": "00130",
+            "stock": "14"
+          },
+          "source": {
+            "category": "Travel",
+            "name": "Everyday Bottle",
+            "notes": "Restock before Friday",
+            "reorder_level": "10",
+            "sku": "00130",
+            "stock": "14"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "30b67eb9822f12efea9703cdd6305f83661f02c5acd70133de2d1cf251aa5c22",
+          "values": {
+            "category": "Carry",
+            "name": "Linen Cable Pouch",
+            "notes": "",
+            "reorder_level": "10",
+            "sku": "00131",
+            "stock": "29"
+          },
+          "source": {
+            "category": "Carry",
+            "name": "Linen Cable Pouch",
+            "notes": "",
+            "reorder_level": "10",
+            "sku": "00131",
+            "stock": "29"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "12a32f33d4dfcaf1ec0112d92d7adb24ed5811da7eb1f35d967de343c3140dc0",
+          "values": {
+            "category": "Workspace",
+            "name": "Oak Laptop Stand",
+            "notes": "Finish inspected",
+            "reorder_level": "5",
+            "sku": "00132",
+            "stock": "8"
+          },
+          "source": {
+            "category": "Workspace",
+            "name": "Oak Laptop Stand",
+            "notes": "Finish inspected",
+            "reorder_level": "5",
+            "sku": "00132",
+            "stock": "8"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "0da60269f7c4393652f9f70ed06769d538aa126a0d637e3818c10c143c935960",
+          "values": {
+            "category": "Stationery",
+            "name": "Soft Grid Planner",
+            "notes": "Seasonal batch",
+            "reorder_level": "8",
+            "sku": "00133",
+            "stock": "2"
+          },
+          "source": {
+            "category": "Stationery",
+            "name": "Soft Grid Planner",
+            "notes": "Seasonal batch",
+            "reorder_level": "8",
+            "sku": "00133",
+            "stock": "2"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "6d7a3f9df2e357252667ebb2978a2d9fe3181d9c6c0f7815ffa0eed868f2ed3b",
+          "values": {
+            "category": "Travel",
+            "name": "Travel Tech Kit",
+            "notes": "",
+            "reorder_level": "6",
+            "sku": "00134",
+            "stock": "13"
+          },
+          "source": {
+            "category": "Travel",
+            "name": "Travel Tech Kit",
+            "notes": "",
+            "reorder_level": "6",
+            "sku": "00134",
+            "stock": "13"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "97de94ffa4bf174fa6def54f398673c123bbcfd08cf5494187799e04d111f5f0",
+          "values": {
+            "category": "Stationery",
+            "name": "Minimal Pen Set",
+            "notes": "Bundle eligible",
+            "reorder_level": "12",
+            "sku": "00135",
+            "stock": "37"
+          },
+          "source": {
+            "category": "Stationery",
+            "name": "Minimal Pen Set",
+            "notes": "Bundle eligible",
+            "reorder_level": "12",
+            "sku": "00135",
+            "stock": "37"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "5b9903e3079563ee815c7af4f2f12bcb9c3d06248ecff9594cc7bf52594856f5",
+          "values": {
+            "category": "Workspace",
+            "name": "Merino Desk Mat",
+            "notes": "",
+            "reorder_level": "4",
+            "sku": "00136",
+            "stock": "11"
+          },
+          "source": {
+            "category": "Workspace",
+            "name": "Merino Desk Mat",
+            "notes": "",
+            "reorder_level": "4",
+            "sku": "00136",
+            "stock": "11"
+          },
+          "overrides": [],
+          "missing": true
+        },
+        {
+          "id": "ace96d3131f766611700559535f7adffc307d351b74dae72e8b33ed018e55661",
+          "values": {
+            "category": "Carry",
+            "name": "Utility Tote",
+            "notes": "Awaiting color sample",
+            "reorder_level": "9",
+            "sku": "00137",
+            "stock": "6"
+          },
+          "source": {
+            "category": "Carry",
+            "name": "Utility Tote",
+            "notes": "Awaiting color sample",
+            "reorder_level": "9",
+            "sku": "00137",
+            "stock": "6"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "8a1bc32fe2659986461b497f51b4d3d25e3e9a54a191a16c7d75425d330d3460",
+          "values": {
+            "category": "Travel",
+            "name": "Transit Organizer",
+            "notes": "New edition",
+            "reorder_level": "7",
+            "sku": "00138",
+            "stock": "19"
+          },
+          "source": {
+            "category": "Travel",
+            "name": "Transit Organizer",
+            "notes": "New edition",
+            "reorder_level": "7",
+            "sku": "00138",
+            "stock": "19"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "1cd8a32cd8b2a7f49bc31ec5c6c2bc602b9c8e41d38018e902b38f073fbbb20a",
+          "values": {
+            "category": "Travel",
+            "name": "Weekend Packing Cube",
+            "notes": "New product",
+            "reorder_level": "5",
+            "sku": "00139",
+            "stock": "12"
+          },
+          "source": {
+            "category": "Travel",
+            "name": "Weekend Packing Cube",
+            "notes": "New product",
+            "reorder_level": "5",
+            "sku": "00139",
+            "stock": "12"
+          },
+          "overrides": [],
+          "missing": false
+        }
+      ],
+      "conflicts": [
+        {
+          "id": "8551121fe9b7f0ffe0f91f12482c0e10ba587000d9188e75747bec668b39c99f",
+          "table_id": "products",
+          "row_id": "b8b4de244a94f2a90394dd8c6dd1fbd922dcfff63dccd59c0c0aa55dbff0f384",
+          "field": "reorder_level",
+          "base": "12",
+          "local": "20",
+          "incoming": "14",
+          "kind": "field",
+          "key_values": {
+            "sku": "00128"
+          }
+        }
+      ],
+      "csv": "sku,name,category,stock,reorder_level,notes\r\n00127,Canvas Field Bag,Carry,16,8,Core collection\r\n00128,Studio Notebook,Stationery,9,20,Supplier changed to Atelier\r\n00129,Brass Desk Tray,Workspace,22,6,Spring release\r\n00130,Everyday Bottle,Travel,14,10,Restock before Friday\r\n00131,Linen Cable Pouch,Carry,29,10,\r\n00132,Oak Laptop Stand,Workspace,8,5,Finish inspected\r\n00133,Soft Grid Planner,Stationery,2,8,Seasonal batch\r\n00134,Travel Tech Kit,Travel,13,6,\r\n00135,Minimal Pen Set,Stationery,37,12,Bundle eligible\r\n00137,Utility Tote,Carry,6,9,Awaiting color sample\r\n00138,Transit Organizer,Travel,19,7,New edition\r\n00139,Weekend Packing Cube,Travel,12,5,New product\r\n",
+      "preview": {
+        "revision": 2,
+        "counts": {
+          "new": 1,
+          "updated": 11,
+          "unchanged": 0,
+          "missing": 1,
+          "conflicts": 1,
+          "duplicates": 0
+        },
+        "warnings": [
+          "Absent records will be marked missing and retained, including local edits."
+        ],
+        "conflicts": [
+          {
+            "id": "8551121fe9b7f0ffe0f91f12482c0e10ba587000d9188e75747bec668b39c99f",
+            "table_id": "products",
+            "row_id": "b8b4de244a94f2a90394dd8c6dd1fbd922dcfff63dccd59c0c0aa55dbff0f384",
+            "field": "reorder_level",
+            "base": "12",
+            "local": "20",
+            "incoming": "14",
+            "kind": "field",
+            "key_values": {
+              "sku": "00128"
+            }
+          }
+        ],
+        "no_op": false
+      }
+    },
+    {
+      "id": "resolved",
+      "title": "Keep the decision that matters",
+      "description": "Choose to keep 20. The conflict is resolved, the source remains 14, and export contains your effective active records.",
+      "summary": {
+        "revision": 4,
+        "active_rows": 20,
+        "missing_rows": 1,
+        "local_edits": 1,
+        "edited_rows": 1,
+        "conflicts": 0,
+        "imports": 3
+      },
+      "rows": [
+        {
+          "id": "274dc2e2d7711aed5404877afe7c224e9e3af7d7d9dadb4282c11b2a97839dd1",
+          "values": {
+            "category": "Carry",
+            "name": "Canvas Field Bag",
+            "notes": "Core collection",
+            "reorder_level": "8",
+            "sku": "00127",
+            "stock": "16"
+          },
+          "source": {
+            "category": "Carry",
+            "name": "Canvas Field Bag",
+            "notes": "Core collection",
+            "reorder_level": "8",
+            "sku": "00127",
+            "stock": "16"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "b8b4de244a94f2a90394dd8c6dd1fbd922dcfff63dccd59c0c0aa55dbff0f384",
+          "values": {
+            "category": "Stationery",
+            "name": "Studio Notebook",
+            "notes": "Supplier changed to Atelier",
+            "reorder_level": "20",
+            "sku": "00128",
+            "stock": "9"
+          },
+          "source": {
+            "category": "Stationery",
+            "name": "Studio Notebook",
+            "notes": "Supplier changed to Atelier",
+            "reorder_level": "14",
+            "sku": "00128",
+            "stock": "9"
+          },
+          "overrides": [
+            "reorder_level"
+          ],
+          "missing": false
+        },
+        {
+          "id": "22e313f797702d83851f4e6cf31300512439c37349145338a9b46a881bb730b3",
+          "values": {
+            "category": "Workspace",
+            "name": "Brass Desk Tray",
+            "notes": "Spring release",
+            "reorder_level": "6",
+            "sku": "00129",
+            "stock": "22"
+          },
+          "source": {
+            "category": "Workspace",
+            "name": "Brass Desk Tray",
+            "notes": "Spring release",
+            "reorder_level": "6",
+            "sku": "00129",
+            "stock": "22"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "3f347c72234ee323c63ca4a20a02e0dc7df8ba59652377084866267b06bc0689",
+          "values": {
+            "category": "Travel",
+            "name": "Everyday Bottle",
+            "notes": "Restock before Friday",
+            "reorder_level": "10",
+            "sku": "00130",
+            "stock": "14"
+          },
+          "source": {
+            "category": "Travel",
+            "name": "Everyday Bottle",
+            "notes": "Restock before Friday",
+            "reorder_level": "10",
+            "sku": "00130",
+            "stock": "14"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "30b67eb9822f12efea9703cdd6305f83661f02c5acd70133de2d1cf251aa5c22",
+          "values": {
+            "category": "Carry",
+            "name": "Linen Cable Pouch",
+            "notes": "",
+            "reorder_level": "10",
+            "sku": "00131",
+            "stock": "29"
+          },
+          "source": {
+            "category": "Carry",
+            "name": "Linen Cable Pouch",
+            "notes": "",
+            "reorder_level": "10",
+            "sku": "00131",
+            "stock": "29"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "12a32f33d4dfcaf1ec0112d92d7adb24ed5811da7eb1f35d967de343c3140dc0",
+          "values": {
+            "category": "Workspace",
+            "name": "Oak Laptop Stand",
+            "notes": "Finish inspected",
+            "reorder_level": "5",
+            "sku": "00132",
+            "stock": "8"
+          },
+          "source": {
+            "category": "Workspace",
+            "name": "Oak Laptop Stand",
+            "notes": "Finish inspected",
+            "reorder_level": "5",
+            "sku": "00132",
+            "stock": "8"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "0da60269f7c4393652f9f70ed06769d538aa126a0d637e3818c10c143c935960",
+          "values": {
+            "category": "Stationery",
+            "name": "Soft Grid Planner",
+            "notes": "Seasonal batch",
+            "reorder_level": "8",
+            "sku": "00133",
+            "stock": "2"
+          },
+          "source": {
+            "category": "Stationery",
+            "name": "Soft Grid Planner",
+            "notes": "Seasonal batch",
+            "reorder_level": "8",
+            "sku": "00133",
+            "stock": "2"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "6d7a3f9df2e357252667ebb2978a2d9fe3181d9c6c0f7815ffa0eed868f2ed3b",
+          "values": {
+            "category": "Travel",
+            "name": "Travel Tech Kit",
+            "notes": "",
+            "reorder_level": "6",
+            "sku": "00134",
+            "stock": "13"
+          },
+          "source": {
+            "category": "Travel",
+            "name": "Travel Tech Kit",
+            "notes": "",
+            "reorder_level": "6",
+            "sku": "00134",
+            "stock": "13"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "97de94ffa4bf174fa6def54f398673c123bbcfd08cf5494187799e04d111f5f0",
+          "values": {
+            "category": "Stationery",
+            "name": "Minimal Pen Set",
+            "notes": "Bundle eligible",
+            "reorder_level": "12",
+            "sku": "00135",
+            "stock": "37"
+          },
+          "source": {
+            "category": "Stationery",
+            "name": "Minimal Pen Set",
+            "notes": "Bundle eligible",
+            "reorder_level": "12",
+            "sku": "00135",
+            "stock": "37"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "5b9903e3079563ee815c7af4f2f12bcb9c3d06248ecff9594cc7bf52594856f5",
+          "values": {
+            "category": "Workspace",
+            "name": "Merino Desk Mat",
+            "notes": "",
+            "reorder_level": "4",
+            "sku": "00136",
+            "stock": "11"
+          },
+          "source": {
+            "category": "Workspace",
+            "name": "Merino Desk Mat",
+            "notes": "",
+            "reorder_level": "4",
+            "sku": "00136",
+            "stock": "11"
+          },
+          "overrides": [],
+          "missing": true
+        },
+        {
+          "id": "ace96d3131f766611700559535f7adffc307d351b74dae72e8b33ed018e55661",
+          "values": {
+            "category": "Carry",
+            "name": "Utility Tote",
+            "notes": "Awaiting color sample",
+            "reorder_level": "9",
+            "sku": "00137",
+            "stock": "6"
+          },
+          "source": {
+            "category": "Carry",
+            "name": "Utility Tote",
+            "notes": "Awaiting color sample",
+            "reorder_level": "9",
+            "sku": "00137",
+            "stock": "6"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "8a1bc32fe2659986461b497f51b4d3d25e3e9a54a191a16c7d75425d330d3460",
+          "values": {
+            "category": "Travel",
+            "name": "Transit Organizer",
+            "notes": "New edition",
+            "reorder_level": "7",
+            "sku": "00138",
+            "stock": "19"
+          },
+          "source": {
+            "category": "Travel",
+            "name": "Transit Organizer",
+            "notes": "New edition",
+            "reorder_level": "7",
+            "sku": "00138",
+            "stock": "19"
+          },
+          "overrides": [],
+          "missing": false
+        },
+        {
+          "id": "1cd8a32cd8b2a7f49bc31ec5c6c2bc602b9c8e41d38018e902b38f073fbbb20a",
+          "values": {
+            "category": "Travel",
+            "name": "Weekend Packing Cube",
+            "notes": "New product",
+            "reorder_level": "5",
+            "sku": "00139",
+            "stock": "12"
+          },
+          "source": {
+            "category": "Travel",
+            "name": "Weekend Packing Cube",
+            "notes": "New product",
+            "reorder_level": "5",
+            "sku": "00139",
+            "stock": "12"
+          },
+          "overrides": [],
+          "missing": false
+        }
+      ],
+      "conflicts": [],
+      "csv": "sku,name,category,stock,reorder_level,notes\r\n00127,Canvas Field Bag,Carry,16,8,Core collection\r\n00128,Studio Notebook,Stationery,9,20,Supplier changed to Atelier\r\n00129,Brass Desk Tray,Workspace,22,6,Spring release\r\n00130,Everyday Bottle,Travel,14,10,Restock before Friday\r\n00131,Linen Cable Pouch,Carry,29,10,\r\n00132,Oak Laptop Stand,Workspace,8,5,Finish inspected\r\n00133,Soft Grid Planner,Stationery,2,8,Seasonal batch\r\n00134,Travel Tech Kit,Travel,13,6,\r\n00135,Minimal Pen Set,Stationery,37,12,Bundle eligible\r\n00137,Utility Tote,Carry,6,9,Awaiting color sample\r\n00138,Transit Organizer,Travel,19,7,New edition\r\n00139,Weekend Packing Cube,Travel,12,5,New product\r\n"
+    }
+  ]
+}
