@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+.data/
+inventory-app/
+dist/
+.DS_Store
